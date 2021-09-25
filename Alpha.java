@@ -1,6 +1,7 @@
-package interfaces;
 
-public interface Alpha {
-	int a=5;
+public class Alpha {
+	Alpha(int a){
+		System.out.println("Alpha one arg con a="+a);
+	}
 
 }
